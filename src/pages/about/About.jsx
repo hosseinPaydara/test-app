@@ -30,10 +30,12 @@ export default function About() {
           reiciendis officia ut laboriosam earum ut laboriosam
           earum.mquam aliquam similique? Quam hic quod </p>
       </div>
-      <div>
+      <div className='flex flex-row gap-1 justify-center'>
         <button  className="bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded">click</button>
-        <Footer/>
+        <button  className="bg-red-500 hover:bg-red-400 text-white font-bold py-2 px-4 border-b-4 border-red-700 hover:border-red-500 rounded">remove </button>
+        <button  className="bg-pink-500 hover:bg-pink-400 text-white font-bold py-2 px-4 border-b-4 border-pink-700 hover:border-pink-500 rounded">edit </button>
       </div>
+        <Footer/>
     </>
   )
 }
