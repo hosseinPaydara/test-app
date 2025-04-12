@@ -1,4 +1,6 @@
 import React from 'react'
+import NavBar from '../../component/navbar/Navbar'
+import Footer from '../../component/footer/Footer'
 
 export default function Weater() {
     const city =[
@@ -7,11 +9,9 @@ export default function Weater() {
         {name:'mashhad' , lat:'36.2972' , lon:'59.6067'}
     ]
   return (
-    <div>
-      <h1>
-        
-      sallam
-      </h1>
+    <>
+    <NavBar/>
+    <div className='flex flex-row justify-center mt-20'>
       <select>
       {city.map((item)=>(
           
@@ -19,5 +19,7 @@ export default function Weater() {
         ))}
       </select>
     </div>
+        <Footer/>
+    </>
   )
 }

@@ -3,6 +3,7 @@ import img from "../../imges/colgate-logo.png"
 import { useNavigate } from 'react-router-dom'
 import Input from '../../component/input/Input'
 import axios from 'axios'
+import NavBar from '../../component/navbar/Navbar'
 
 export default function LoginPage() {
   const navigte = useNavigate()
@@ -46,6 +47,7 @@ export default function LoginPage() {
   }
   return (
     <>
+    <NavBar/>
       <div className='flex gap-[20px] flex-col flex-wrap justify-center items-center content-center mt-52 text-right '>
         <div className='border border-gray-400  px-2 rounded-lg'>
           <form className="max-w-sm mx-auto " onSubmit={handelSubmit}>

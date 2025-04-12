@@ -33,7 +33,7 @@ export default function Home() {
         {
           isLoading ? <Loading /> : (
             <>
-              <div className='flex flex-row justify-center flex-wrap gap-x-32 gap-y-5'>
+              <div className='flex flex-row justify-center flex-wrap gap-x-32 gap-y-5 mb-32'>
                 {
                   articl.map((article) => (
 
