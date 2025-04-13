@@ -7,7 +7,7 @@ export default function sitBar() {
     cheKhabar
     </h1>
     <p>
-      search bar
+      search bargit 
     </p>
   </div>
   )
