@@ -1,8 +1,11 @@
-export dedfult SitBar (){
-  return(
-    <div>
-      <h1>
-      sallam
-      </h1>
-    </div>
+import React from 'react'
+
+export default function sitBar() {
+  return (
+    <div>   
+    <h1>
+    cheKhabar
+    </h1>
+  </div>
   )
+}
