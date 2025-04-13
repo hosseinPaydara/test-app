@@ -6,6 +6,9 @@ export default function sitBar() {
     <h1>
     cheKhabar
     </h1>
+    <p>
+      search bar
+    </p>
   </div>
   )
 }
